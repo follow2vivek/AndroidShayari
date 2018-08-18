@@ -1,0 +1,35 @@
+! version = 2.0
+
++ hi
+- {"reply":"Call me Alisha","app":{  "cmd":"",  "action_code":0 }}
+
++ hi alisha
+- {"reply":"Hello sir","app":{ "cmd":"", "action_code":0 }}
+
++ hello alisha
+- {"reply":"Hello sir","app":{ "cmd":"", "action_code":0 }}
+
++ how are you
+- {"reply":"I am good, you?","app":{ "cmd":"", "action_code":0 }}
+- {"reply":"Great! you.","app":{ "cmd":"", "action_code":0 }}
+
++ [alisha] who is your father
+- {"reply":"Vivek is my father","app":{ "cmd":"", "action_code":0 }}
+
++ [alisha] how do you work
+- {"reply":"Vivek taught me","app":{ "cmd":"", "action_code":0 }}
+
++ [alisha] what are you [alisha]
+- {"reply":"I am an artificial intelligence programmed.","app":{ "cmd":"", "action_code":0 }}
+
++ my name is *
+- {"reply":"nice to meet you, <star><set name=<star>>!","app":{ "cmd":"", "action_code":0 }}
+
++ [alisha] what is my name
+- {"Your name is <get name>","app":{ "cmd":"", "action_code":0 }}
+
++ [alisha] who is *
+- {"reply":"I don't know who <star> is.","app":{ "cmd":"", "action_code":0 }}
+
++ *
+- {"reply":"I don't know about <star>.","app":{ "cmd":"", "action_code":0 }}

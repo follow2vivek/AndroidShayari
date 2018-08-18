@@ -1,0 +1,7 @@
+
++ [alisha] open *
+- {"reply":"sure sir","app":{  "cmd":"<star>",  "action_code":1 }}
+
++ [alisha] call [to] *
+- {"reply":"sure sir","app":{  "cmd":"<star>",  "action_code":2 }}
+
